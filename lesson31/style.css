@@ -1,0 +1,179 @@
+@font-face{
+	font-family: kirrildown;
+	src:url(19144.ttf);
+}
+
+	
+body{
+	margin: 0;
+}
+#top-menu{
+	position: relative;
+	background-color: #333;
+width: 100%;
+height: 50px;
+}
+#main-box{
+	width: 100%;
+	position:relative;
+}
+.main-box-img{
+	width: 100%;
+	margin-bottom: -5px;
+}
+.top-menu-element{
+	position: relative;
+	height: 30px;
+padding: 10px;			
+display: inline-block;
+color:#fff;
+font-family: kirrildown;
+background-color: #ff0;
+}
+.top-menu-img{
+	height: 30px;
+	position: relative;
+	margin: -10px;
+} 
+#top-menu a {
+	text-decoration: none;
+}
+.line{
+	width:100%;
+	height: 15%;
+	background-color: #241; 
+	top: 100%;
+	position: absolute;
+	left: 0;
+	transition-duration: 200ms;
+	transition-property: transform;
+
+}
+.top-menu-element:hover .line{
+
+transform: translateY(-100%);
+}
+#slide1{
+	display:block ;
+}
+#slide2{
+	display:none ;
+} 
+.slide-title{
+	position: absolute;
+	top: 50%;
+	
+transform: translate(-50%,-50%);
+}
+#slide1-title{
+left: 35%;
+text-align: right;
+}
+.slide-title img{
+	height: 20px;
+}
+.flex-btn{
+	background-color: #09d;
+	padding: 10px;
+	color: #fff;
+	position: absolute;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+font-size: 25px;
+font-family: kirrildown;
+text-shadow: 0 0 10px #224;
+transition-duration: 200ms;
+transition-property: transform;
+}
+.flex-btn div{
+	transition-duration: 200ms;
+transition-property: transform;
+}
+.slide-title p{
+	font-size: 30px;
+	color: #fff;
+	font-family: kirrildown;
+	text-shadow:0 0 10px #223;
+}
+.flex-btn:hover{
+	/*-webkit-clip-path:polygon(
+30% 0%,
+130% 0%,
+100% 100%,
+0% 100%
+
+
+		);*/
+transform: skew(-5deg) translateX(2.2px);	
+}
+#slide-play-btn{
+	height: 100px;
+	width: 100px;
+	background-color: rgba(0,0,0, 0.7);
+	border: solid #222 2px;
+	border-radius: 50%;
+	bottom: 50px;
+	right: 50px;
+	position: absolute;
+}
+.triangle{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	background-color: #222;
+	height: 40px;
+	width: 30px;
+}
+#slide2-title{
+left: 15%;
+text-align: center;
+}
+.slide-title b{
+	color: #08d;
+	font-size: 50px;
+	font-family: kirrildown;
+	text-shadow: 0 0 10px #224;
+}
+#footer{
+	background-color: #333;
+	padding: 50px
+	color:#fff;
+
+}
+#footer a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#feed .content{
+	background-size: cover;
+	background-position: center center;
+	height: 500px;
+	width: 600px;
+margin: 10px;
+display: inline-block;
+width: 45%;
+}
+#feed{
+	position: relative;
+	width: 1024px;
+	left: 50%;
+	transform: translate(-50%,-50px);
+}
+#feed .descr{
+	position: relative;
+	bottom: 0;
+	padding: 10px;
+	left: 0;
+	right: 0;
+font-size: 30px;
+color: #000;
+
+}
