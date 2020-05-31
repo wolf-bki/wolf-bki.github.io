@@ -178,6 +178,9 @@ border-top: none;
 	transform: translateY(0) scaleY(1);
 
 }
+#top-menu a{
+	text-decoration: none;
+}
 #top-menu-btn1 .tmb-menu{
 width: 150px;
 }
@@ -329,7 +332,7 @@ position: absolute;
 z-index: 1;
 }
 #switch-buttons1{
-top: 145px;
+top: 167px;
 left: 15px;
 
 }
